@@ -2,7 +2,7 @@
 
 一个面向 Windows 的独立 MAA 自动化助手。它通过企业微信智能机器人接收私聊指令，调用本机 MAA / MuMu / ADB 执行一键长草、账号切换和自动肉鸽，并把开始、异常、完成和停止状态推回聊天。
 
-> 本项目是独立社区项目，不修改 MAA 主仓库，也不代表 MAA 官方。当前实现依赖 MAA GUI 的 Windows UI Automation；MAA 版本升级后，极少数按钮或控件名称可能需要同步调整。
+> 当前实现依赖 MAA GUI 的 Windows UI Automation；MAA 版本升级后，极少数按钮或控件名称可能需要同步调整。
 
 ## 功能
 
@@ -114,3 +114,5 @@ config.example.json
 - 账号切换依赖 MAA 登录页中已保存的账号；账号密码 ADB 登录需要先完成屏幕坐标校准。
 - MAA 或模拟器升级可能改变控件名称、布局或配置文件字段。
 - 本项目不是 MAA 官方远控协议实现。若需要跨平台、免 UI 自动化方案，应按 MAA `remote-control-schema` 单独实现协议服务端。
+
+致谢 https://github.com/MaaAssistantArknights/MaaAssistantArknights
