@@ -1,0 +1,32 @@
+# Local secrets and runtime data
+config.json
+config.json.*
+*.log
+*.pid
+service-alive.txt
+service-state.json
+gui-command.json
+*.png
+*.jpg
+*.jpeg
+backup/
+installer-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+build/
+dist/
+
+# Editors and OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini

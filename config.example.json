@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "bot_id": "",
+  "secret": "",
+  "ws_url": "wss://openws.work.weixin.qq.com",
+  "heartbeat_seconds": 25,
+  "chat_id": "",
+  "chat_type": 1,
+  "allowed_chat_ids": [],
+  "allow_group_chat": false,
+  "maa_dir": "C:\\Program Files\\MAA\\",
+  "maa_log": "",
+  "mumu_dir": "",
+  "adb_address": "127.0.0.1:16416",
+  "adb_emu_path": "",
+  "game_package": "com.hypergryph.arknights",
+  "notify_start": true,
+  "notify_errors": true,
+  "trigger_keywords": [
+    "清日常",
+    "一键长草",
+    "start"
+  ],
+  "status_keywords": [
+    "状态",
+    "进度",
+    "status"
+  ],
+  "help_keywords": [
+    "帮助",
+    "help",
+    "菜单"
+  ],
+  "schedule_times": [
+    "08:00",
+    "20:00"
+  ],
+  "ensure_lead_minutes": 10,
+  "service_alive_seconds": 150,
+  "auto_recover": true,
+  "recover_max_attempts": 2,
+  "catch_up_missed": true,
+  "ai_enabled": true,
+  "deepseek_api_key": "",
+  "deepseek_model": "deepseek-flash",
+  "accounts": [],
+  "adb_login": {
+    "enabled": false,
+    "account_field": null,
+    "password_field": null,
+    "login_button": null
+  }
+}
